@@ -1,0 +1,222 @@
+body {
+    background-color: rgb(75, 211, 154);
+}
+
+nav#navbar {
+    background-color: rgba(0, 0, 0, 0.212);
+    height: 12vh;
+}
+
+nav#navbar a.navbar-brand{
+    width: 15vw;
+}
+
+div#first-panel {
+    display: inline-flex;
+    margin-bottom: 0;
+}
+
+div#first-panel img{
+    margin-bottom: 0;
+    margin-left: 12vw;
+    width: 65.82%;
+    transform: scaleX(-1);
+}
+
+div#first-panel h1#text {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 35pt;
+    text-align: end;
+    position: relative;
+    top: 24vh;
+    width: 36vw;
+    height: fit-content;
+}
+
+div#first-panel button#btn-panel {
+    height: 10vh;
+    width: 15vw;
+    position: relative;
+    right: 12vw;
+    top: 52.5vh;
+    background-color: #ffcb00;
+    border-color: #ffcb00;
+    transition: background-color 500ms;
+}
+
+div#first-panel button#btn-panel a {
+    text-decoration: none;
+    
+}
+
+div#first-panel button#btn-panel:hover {
+    background-color: #fdd65f;
+}
+
+div#quem-somos {
+    height: 70vh;
+    background-color: #ffcb00;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+
+div#quem-somos img{
+    width: 20vw;
+    position: relative;
+    top: 20vh;
+    right: -75vw;
+}
+
+div#quem-somos h1 {
+    font-family: 'Quicksand', sans-serif !important;
+    position: relative;
+    top: -30%;
+    left: 3%;
+    width: 70%;
+}
+
+div#quem-somos h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    position: relative;
+    top: -28%;
+    left: 4%;
+    width: 50%;
+    font-style: italic;
+}
+
+div#dep {
+    margin-top: 2.5%;
+    background-color: rgba(255, 237, 237, 0.733);
+    padding: 2%;
+    border-radius: 1%;
+}
+
+div#dep div.text {
+    margin-bottom: 5%;
+}
+
+div#dep div.text h1.h1 {
+    text-align: center;
+}
+
+div#dep div.text hr {
+    border-width: 2px;
+    border-radius: 2px;
+    box-shadow: 2px;
+}
+
+div#dep div.text i {
+    margin-right: 5px;
+}
+
+div#servicos div {
+    height: 75vh;
+    background-color: #f8f8f8c2;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+
+div#servicos div#div1 img {
+    top: 15vh;
+}
+
+div#servicos div img {
+    width: 20vw;
+    position: relative;
+    top: 20vh;
+    right: -75vw;
+}
+
+div#servicos div h1 {
+    font-family: 'Quicksand', sans-serif !important;
+    position: relative;
+    top: -30%;
+    left: 3%;
+    width: 50%;
+}
+
+div#servicos div#div2 {
+    background-color: #ffcb00;
+}
+
+div#servicos div#div2 h1, div#servicos div#div3 h1 {
+    top: -10% !important;
+}
+
+div#servicos div#div2 img {
+    right: -3%;
+    top: 25%;
+}
+
+div#servicos div#div2 h1 {
+    left: 45%;
+    text-align: end;
+}
+
+div#contato {
+    background-color: #2b7c5a;
+    margin-top: 8vh;
+    display: inline-flexbox;
+    padding: 2%;
+}
+
+div#contato div#inline-text {
+    display: inline-flex;
+}
+
+div#contato img {
+    position: relative;
+    width: 10%;
+    left: 44vw;
+}
+
+div#contato h1 {
+    font-family: 'Quicksand', sans-serif !important;
+    color: rgba(255, 255, 255, 0.897);
+    position: relative;
+    text-align: center;
+    width: 60vw;
+    left: 18vw;
+    margin-top: 2vh;
+}
+
+div#contato div#inline-text {
+    margin-top: 6vh;
+    margin-bottom: 3vh;
+}
+
+div#contato div#inline-text h2 {
+    font-family: 'Quicksand', sans-serif !important;
+    color: rgba(255, 255, 255, 0.897);
+    font-size: 1.8rem;
+    position: relative;
+}
+
+div#contato div#inline-text h2#email {
+    left: 13vw;
+}
+
+div#contato div#inline-text h2#telephone {
+    left: 25vw;
+}
+
+div#contato h2#cep {
+    font-family: 'Quicksand', sans-serif !important;
+    color: rgba(255, 255, 255, 0.897);
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+div#footer {
+    background-color: rgba(37, 37, 37, 0.842);
+    display: flex;
+    color: white;
+    margin-top: 15vh;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+div#footer span {
+    font-family: 'Quicksand', sans-serif !important;
+}
